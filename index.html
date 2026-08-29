@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,
+                 viewport-fit=cover">
+
+  <meta name="theme-color" content="#05080d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent">
+
+  <title>MAYH3M OS</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main id="os">
+
+  <header class="topbar">
+
+    <div class="brand">
+      <span class="bolt">ϟ</span>
+      MAYH3M
+    </div>
+
+    <div class="status">
+      <span id="time">--:--</span>
+      <span>⌁</span>
+      <span>▰</span>
+    </div>
+
+  </header>
+
+
+  <section class="hero">
+
+    <div>
+      <p class="eyebrow">ELECTRIC MAYH3M</p>
+
+      <h1>MAYH3M OS</h1>
+
+      <p class="tagline">
+        BUILT DIFFERENT.
+      </p>
+    </div>
+
+    <div class="system-card">
+      <span>SYS</span>
+      <strong>ONLINE</strong>
+      <small>TABLET X1</small>
+    </div>
+
+  </section>
+
+
+  <section class="grid">
+
+    <button class="app" data-app="apps">
+      <span class="icon">✦</span>
+      <b>Apps</b>
+    </button>
+
+    <button class="app" data-app="calculator">
+      <span class="icon">÷</span>
+      <b>Calculator</b>
+    </button>
+
+    <button class="app" data-app="notes">
+      <span class="icon">▤</span>
+      <b>Notes</b>
+    </button>
+
+    <button class="app" data-app="clock">
+      <span class="icon">◷</span>
+      <b>Clock</b>
+    </button>
+
+    <button class="app" data-app="games">
+      <span class="icon">◇</span>
+      <b>Games</b>
+    </button>
+
+    <button class="app" data-app="settings">
+      <span class="icon">⚙</span>
+      <b>Settings</b>
+    </button>
+
+  </section>
+
+
+  <section class="info-row">
+
+    <div class="info">
+      <span>POWER</span>
+      <strong>87%</strong>
+    </div>
+
+    <div class="info">
+      <span>MODE</span>
+      <strong>READY</strong>
+    </div>
+
+    <div class="info">
+      <span>BUILD</span>
+      <strong>0.1</strong>
+    </div>
+
+  </section>
+
+
+  <!-- CUSTOM MAYH3M DOCK -->
+  <nav class="dock">
+
+    <button data-app="home">
+      <span>ϟ</span>
+    </button>
+
+    <button data-app="apps">
+      <span>✦</span>
+    </button>
+
+    <button data-app="notes">
+      <span>▤</span>
+    </button>
+
+    <button data-app="settings">
+      <span>⚙</span>
+    </button>
+
+  </nav>
+
+</main>
+
+
+<!-- APP PANEL -->
+
+<div id="panel" class="panel hidden">
+
+  <div class="panel-inner">
+
+    <button id="close" class="close">
+      ×
+    </button>
+
+    <h2 id="panel-title"></h2>
+
+    <div id="panel-content"></div>
+
+  </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

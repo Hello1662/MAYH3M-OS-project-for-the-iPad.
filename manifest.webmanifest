@@ -1,0 +1,10 @@
+{
+  "name": "MAYH3M OS",
+  "short_name": "MAYH3M OS",
+  "id": "mayh3m-os-tablet",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#05080d",
+  "theme_color": "#05080d",
+  "description": "Electric MAYH3M Tablet OS"
+}
